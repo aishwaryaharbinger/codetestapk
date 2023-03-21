@@ -83,6 +83,13 @@ const App = () => {
         console.log(token);
         YMChat.setBotId('x1666179783148'); // Default Bot Id
         // ... OTHER Configurations. (refer: https://github.com/yellowmessenger/ymchat-react-native)
+      YMChat.setPayload({
+        token: token,
+        customerId: '154119639',
+        customerName: 'Sunita Maru',
+        JourneySlug: 'boi-main-menu_fjomgm',
+        type: 'react-native',
+    })
         YMChat.setDeviceToken(token);
         YMChat.startChatbot();
       });
