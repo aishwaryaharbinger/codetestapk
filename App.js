@@ -81,7 +81,7 @@ const App = () => {
       .getToken()
       .then(token => {
         console.log(token);
-        YMChat.setBotId('x1608615889375'); // Default Bot Id
+        YMChat.setBotId('x1666179783148'); // Default Bot Id
         // ... OTHER Configurations. (refer: https://github.com/yellowmessenger/ymchat-react-native)
         YMChat.setDeviceToken(token);
         YMChat.startChatbot();
